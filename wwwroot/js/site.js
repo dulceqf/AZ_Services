@@ -4,11 +4,23 @@
   // /Home/services.html -> base = ".."
   // /services.html      -> base = "."
   const pathParts = window.location.pathname.split("/").filter(Boolean);
-  const isInHomeFolder = pathParts.length > 1 && pathParts[pathParts.length - 2].toLowerCase() === "home";
-  const base = isInHomeFolder ? ".." : ".";
 
-  const headerUrl = `${base}/Shared/header.html`;
-  const footerUrl = `${base}/Shared/footer.html`;
+    // Find your project folder in the URL, like: /AZ_Services/Home/services.html
+    const projectFolderIndex = pathParts.findIndex(p => p.toLowerCase() === "az_services");
+    
+    // Build a prefix like "/AZ_Services" if found, otherwise "" (site root)
+    const prefix = projectFolderIndex >= 0
+      ? "/" + pathParts.slice(0, projectFolderIndex + 1).join("/")
+      : "";
+    
+    // These will become:
+    // /AZ_Services/Shared/header.html (if your site is inside that folder)
+    // /Shared/header.html (if your site is at root)
+    const headerUrl = "/Shared/header.html";
+    const footerUrl = "/Shared/footer.html";
+
+
+
 
   // Determine current page file (handles /Home/ and /Home/)
   let currentPage = pathParts[pathParts.length - 1] || "index.html";
