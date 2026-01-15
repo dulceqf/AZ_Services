@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dmqfr\\source\\AZ_Services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Home\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Shared\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Shared\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\error.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Shared\\error.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\aboutus.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Home\\aboutus.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\serviceareas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Home\\serviceareas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Home\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\contactus.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AZ_Services\\Home\\contactus.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "contactus.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\contactus.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Home\\contactus.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\contactus.html",
+              "RelativeToolTip": "AZ_Services\\Home\\contactus.html",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAE0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-20T17:37:57.18Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "footer.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\footer.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Shared\\footer.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\footer.html",
+              "RelativeToolTip": "AZ_Services\\Shared\\footer.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-14T16:43:46.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "header.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\header.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Shared\\header.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\header.html",
+              "RelativeToolTip": "AZ_Services\\Shared\\header.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-14T16:43:29.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "error.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\error.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Shared\\error.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Shared\\error.html",
+              "RelativeToolTip": "AZ_Services\\Shared\\error.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-14T16:43:11.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\services.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Home\\services.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\services.html",
+              "RelativeToolTip": "AZ_Services\\Home\\services.html",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAywFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-20T17:38:43.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\index.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Home\\index.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\index.html",
+              "RelativeToolTip": "AZ_Services\\Home\\index.html",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAywGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-20T17:08:08.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "serviceareas.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\serviceareas.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Home\\serviceareas.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\serviceareas.html",
+              "RelativeToolTip": "AZ_Services\\Home\\serviceareas.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-20T17:38:24.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AZ_Services\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AZ_Services\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-12T20:41:56.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "aboutus.html",
+              "DocumentMoniker": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\aboutus.html",
+              "RelativeDocumentMoniker": "AZ_Services\\Home\\aboutus.html",
+              "ToolTip": "C:\\Users\\dmqfr\\source\\AZ_Services\\AZ_Services\\Home\\aboutus.html",
+              "RelativeToolTip": "AZ_Services\\Home\\aboutus.html",
+              "ViewState": "AgIAACYAAAAAAAAAAAAywCYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-20T17:37:25.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

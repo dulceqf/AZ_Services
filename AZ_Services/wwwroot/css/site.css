@@ -1,0 +1,399 @@
+/* =========================================================
+   AZ SERVICES - site.css (FULL)
+   Paste this whole file to replace your current site.css
+========================================================= */
+
+/* ---------- Variables ---------- */
+:root{
+  --nav-h: 64px;
+  --nav-bg: #0b2a63;
+
+  --bg-top: #d7dee0;
+  --bg-mid: #aab4b7;
+  --bg-bot: #70797b;
+
+  --text-strong: rgba(0,0,0,0.86);
+  --text-soft: rgba(0,0,0,0.70);
+
+  --glass: rgba(204,231,255,0.78);
+  --glass-border: rgba(255,255,255,0.45);
+}
+
+/* ---------- Reset / base ---------- */
+* { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* IMPORTANT: one unified background to avoid the “split line” */
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 45%, var(--bg-bot) 100%);
+  background-attachment: fixed;
+
+  /* fixed navbar spacing */
+  padding-top: var(--nav-h);
+}
+
+/* prevents horizontal scrollbars caused by big effects */
+html, body { overflow-x: hidden; }
+
+/* Bootstrap .container is fine; do NOT override it globally */
+.container { max-width: 1140px; }
+
+/* =========================================================
+   NAVBAR
+========================================================= */
+.az-nav {
+  background: var(--nav-bg);
+  min-height: var(--nav-h);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.22);
+}
+
+.az-nav .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.92) !important;
+  font-weight: 700;
+  padding: 0 14px;
+}
+
+.az-nav .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.az-nav .navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+/* Mobile expanded menu background */
+#mainNavbar.collapse.show {
+  background-color: rgba(255,255,255,0.95);
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+#mainNavbar .nav-item {
+  margin-bottom: 6px;
+}
+
+main {
+  flex: 1;
+}
+
+/* =========================================================
+   HERO (text + big logo)
+   Use this ONLY on pages that have <section class="hero">
+========================================================= */
+.hero {
+  position: relative;
+  padding: 90px 0 170px; /* bottom space so the main card can overlap */
+  background: transparent; /* body owns the gradient */
+}
+
+/* layout: text left, logo right */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 60px;
+}
+
+/* left text block */
+.hero-text {
+  max-width: 540px;
+}
+
+/* like the “Fruitful” example */
+.hero-text h1 {
+  font-size: clamp(2.7rem, 5vw, 4.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin: 0 0 14px;
+  color: rgba(255,255,255,0.92);
+  font-weight: 750;
+}
+
+.hero-text p {
+  margin: 0 0 22px;
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.70);
+  max-width: 460px;
+}
+
+/* CTA button */
+.hero .btn {
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-weight: 800;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.22);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.hero .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.26);
+}
+
+/* right logo */
+.hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo img {
+  width: min(560px, 100%);
+  opacity: 0.92;
+  filter: drop-shadow(0 22px 44px rgba(0,0,0,0.25));
+
+  /* soft blend edges */
+  mask-image: radial-gradient(circle at center, black 65%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle at center, black 65%, transparent 92%);
+}
+
+/* =========================================================
+   MAIN "GLASS" CARD (services container)
+   IMPORTANT: We style only main.container (your <main class="container">)
+========================================================= */
+main.container {
+  width: min(1050px, 92%);
+  margin: 40px auto 60px;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  text-align: left;
+}
+
+/* Only pull the card up into the hero on hero pages */
+body.has-hero main.container {
+  margin-top: -95px; /* adjust this if you want more/less overlap */
+}
+
+/* headings inside the card */
+main.container h1,
+main.container h2 {
+  color: rgba(0,0,0,0.82);
+}
+
+/* =========================================================
+   SERVICES GRID (your image tiles)
+========================================================= */
+.service-img-wrapper img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.18);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.service-img-wrapper img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 40px rgba(0,0,0,0.22);
+}
+
+.services-section .card {
+  padding: 18px 20px;
+  border-radius: 16px;
+}
+
+.card.bg-transparent {
+  background: transparent !important;
+}
+
+.card-title {
+  margin-top: 10px;
+  letter-spacing: 0.2px;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+footer, #site-footer {
+  background: transparent;
+}
+
+#site-footer {
+  padding: 24px 0 30px;
+  color: rgba(255,255,255,0.65);
+}
+
+.site-footer,
+#site-footer footer {
+  text-align: center;
+  padding: 14px 0;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.7);
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+@media (max-width: 992px) {
+  .hero {
+    padding: 70px 0 170px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    text-align: center;
+  }
+
+  .hero-text h1,
+  .hero-text p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-logo img {
+    width: min(360px, 100%);
+  }
+
+  body.has-hero main.container {
+    margin-top: -70px;
+  }
+
+  main.container {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 62px 0 165px;
+  }
+
+  .service-img-wrapper img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Services section logo */
+.services-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.services-logo img {
+  width: 300px;          /* adjust if needed */
+  opacity: 0.85;
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.18));
+}
+
+.services-section {
+  max-width: 900px;   /* 🔥 was too wide before */
+  margin: 40px auto 60px;
+}
+
+/* Service Areas card */
+.service-area-card {
+  max-width: 520px;     /* controls box size */
+  text-align: left;
+}
+
+/* List rows */
+.service-area-card .list-group-item {
+  padding: 12px 16px;
+  font-size: 0.95rem;
+}
+
+/* Logo sizing */
+.services-logo img {
+  max-width: 160px;
+  opacity: 0.9;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  padding-bottom: 80px;
+}
+
+/* BIG LOGO */
+.about-logo img {
+  max-width: 160px;      /* increase logo size */
+  width: 100%;
+  opacity: 0.95;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.25));
+}
+
+/* TEXT CARD */
+.about-card {
+  max-width: 820px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 36px 42px;
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  text-align: left;
+  line-height: 1.7;
+}
+
+/* Paragraph spacing */
+.about-card p {
+  margin-bottom: 18px;
+  color: rgba(0,0,0,0.8);
+  font-size: 1.05rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-logo img {
+    max-width: 120px;
+  }
+
+  .about-card {
+    padding: 26px 22px;
+  }
+}
+
+/* Contact page card size */
+.contact-card{
+  max-width: 820px;
+}
+
+/* Make table feel like the Service Areas list */
+.contact-table{
+  border-collapse: separate;
+  border-spacing: 0 10px; /* space between rows */
+}
+
+.contact-table thead th{
+  border: none !important;
+  color: rgba(0,0,0,0.65);
+  font-weight: 700;
+  padding: 10px 16px;
+
+}
+
+.contact-table tbody tr{
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+}
+
+.contact-table tbody td{
+  border: none !important;
+  padding: 14px 16px;
+}
+
+
+/* Slight hover */
+.contact-table tbody tr:hover{
+  transform: translateY(-1px);
+  transition: transform 0.12s ease;
+}
