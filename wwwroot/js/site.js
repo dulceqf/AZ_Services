@@ -16,8 +16,8 @@
     // These will become:
     // /AZ_Services/Shared/header.html (if your site is inside that folder)
     // /Shared/header.html (if your site is at root)
-    const headerUrl = "/Shared/header.html";
-    const footerUrl = "/Shared/footer.html";
+    const headerUrl = "/Shared/header.html?v=9";
+    const footerUrl = "/Shared/footer.html?v=9";
 
 
 
