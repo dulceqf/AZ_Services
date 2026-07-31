@@ -157,8 +157,7 @@ main { flex: 1; }
 .page-hero p { max-width: 620px; margin: 0 auto; color: rgba(255,255,255,.74); font-size: 1.08rem; }
 .page-hero img { position: absolute; top: 50%; left: calc((1160px - 100vw) / 2 + 40px); width: 245px; max-height: 175px; padding: 0; object-fit: contain; background: transparent; box-shadow: none; filter: drop-shadow(0 14px 24px rgba(12,45,70,.24)); transform: translateY(-50%); }
 .interior-section { position: relative; padding: 48px 0 60px; background: radial-gradient(circle at 92% 12%, rgba(23,105,170,.08), transparent 24%), var(--soft); }
-.detail-card { display: flex; gap: 22px; height: 100%; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: 0 12px 34px rgba(13,40,70,.07); }
-.detail-number { flex: 0 0 auto; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 12px; color: #fff; background: var(--navy); font-size: .78rem; font-weight: 800; }
+.detail-card { height: 100%; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: 0 12px 34px rgba(13,40,70,.07); }
 .detail-card h2, .story-card h2, .contact-main h2 { color: var(--navy); font-size: 1.55rem; font-weight: 750; }
 .detail-card p, .story-card p, .contact-main > p { color: var(--muted); line-height: 1.7; }
 .detail-card ul { margin: 18px 0 0; padding-left: 18px; color: #465366; }
@@ -283,7 +282,9 @@ main { flex: 1; }
   :root { --nav-h: 68px; }
   .hero { padding: 56px 0; }
   .hero-text h1 { font-size: 2.65rem; }
-  .hero-logo { display: none; }
+  .hero-logo { display: block; grid-row: 1; width: 190px; margin: 0 auto -6px; }
+  .hero-logo img { width: 100%; max-width: 190px; }
+  .hero-text { grid-row: 2; }
   .trust-items { grid-template-columns: 1fr; padding: 8px 0; }
   .trust-item { padding: 12px; border-right: 0; }
   .home-services, .page-section { padding: 54px 0; }
