@@ -109,7 +109,7 @@ document.addEventListener("submit", async (event) => {
     status.textContent = "Thank you! Your message was sent. AZ Services will contact you soon.";
   } catch (error) {
     status.className = "form-status is-error";
-    status.innerHTML = 'We could not send your message. Please call <a href="tel:+15722044134">(572) 204-4134</a> or try again.';
+    status.innerHTML = 'We could not send your message. Please call <a href="tel:+15722044134">(572) 204-4134</a> or <a href="tel:+14055055910">(405) 505-5910</a>, or try again.';
   } finally {
     button.disabled = false;
     button.textContent = "Send message";
