@@ -33,7 +33,7 @@ main { flex: 1; }
 
 .az-nav {
   top: var(--utility-h);
-  min-height: var(--nav-h);
+  min-height: calc(var(--nav-h) - var(--utility-h));
   background: rgba(23, 74, 115, .98);
   border-bottom: 1px solid rgba(255,255,255,.1);
   box-shadow: 0 8px 30px rgba(10, 30, 55, .14);
@@ -44,7 +44,7 @@ main { flex: 1; }
 .top-contact-bar a:hover { text-decoration: underline; }
 .top-contact-bar em { color: rgba(255,255,255,.58); font-style: normal; }
 .top-language { margin-left: 14px; padding-left: 16px; border-left: 1px solid rgba(255,255,255,.2); }
-.az-nav .navbar-brand { font-size: 1.25rem; letter-spacing: -.02em; }
+.az-nav .navbar-brand { font-size: 1.3rem; letter-spacing: -.02em; }
 .brand-mark {
   display: inline-grid;
   place-items: center;
@@ -65,7 +65,7 @@ main { flex: 1; }
   margin-left: 8px;
   padding: 10px 12px !important;
   color: rgba(255,255,255,.78) !important;
-  font-size: .93rem;
+  font-size: .96rem;
   font-weight: 600;
 }
 .az-nav .nav-link:hover, .az-nav .nav-link.active { color: #fff !important; }
