@@ -1,100 +1,52 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AZ Services - Services</title>
-
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Your CSS (correct path from /Home/) -->
-        <link rel="stylesheet" href="/wwwroot/css/site.css">
-    </head>
-
-    <body class="has-hero overflow-x: hidden">
-        <!-- Header -->
-        <div id="site-header"></div>
-        <!-- HERO -->
-        <section class="hero">
-            <div class="container hero-grid">
-    <div class="hero-text">
-      <h1>Heating &amp; Cooling You Can Trust</h1>
-      <p>
-        Professional HVAC services for homes and businesses.
-        Reliable, fast, and affordable solutions year-round.
-      </p>
-      <a href="contactus.html" class="btn btn-primary btn-lg">Get a Free Estimate</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional heating, cooling, maintenance and air quality services across Oklahoma.">
+  <title>AZ Services | Oklahoma Heating &amp; Cooling</title>
+  <link href="/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/wwwroot/css/site.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Comfort you can count on, in every season.</h1>
+        <p>Dependable heating and cooling solutions for homes and businesses in Oklahoma City and surrounding areas - delivered with honest guidance and personal service.</p>
+        <div class="hero-actions">
+          <a href="contactus.html" class="btn btn-primary btn-lg">Request a free estimate</a>
+          <a href="services.html" class="btn btn-light-outline btn-lg">Explore services</a>
+        </div>
+      </div>
+      <div class="hero-logo"><img src="/wwwroot/images/az_services_logo.png" alt="AZ Services heating and cooling"></div>
     </div>
-
-    <div class="hero-logo">
-      <img src="../wwwroot/images/az_services_logo.png" alt="AZ Services Logo">
+  </section>
+  <section class="proof-strip"><div class="container proof-grid"><div><strong>5+</strong><span>Years of experience</span></div><div><strong>1 year</strong><span>Installation warranty</span></div><div><strong>Local</strong><span>Family-owned service</span></div></div></section>
+  <section class="trust-strip" aria-label="Why choose AZ Services">
+    <div class="container trust-items">
+      <div class="trust-item"><span class="trust-check" aria-hidden="true"></span> Family owned &amp; operated</div>
+      <div class="trust-item"><span class="trust-check" aria-hidden="true"></span> Residential &amp; commercial</div>
+      <div class="trust-item"><span class="trust-check" aria-hidden="true"></span> Oklahoma City &amp; surrounding areas</div>
     </div>
-  </div>
-        </section>
-        
-
-        <!-- MAIN CONTENT -->
-        <main class="container"> 
-            
-                <h1 class="display-5 fw-bold mb-4 text-center">Our Services</h1>
-                
-                <!--CARD 1 -->
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-center">
-                    <div class="col">
-                        <div class="card border-0 h-100 bg-transparent">
-                            <div class="service-img-wrapper mx-auto">
-                                <img src="../wwwroot/images/duct cleaning.png" class="img-fluid" alt="Duct Cleaning">
-                            </div>
-                                <div class="card-body">
-                                <h5 class="card-title fw-bold">Duct Cleaning</h5>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!--CARD 2 -->
-                    <div class="col">
-                        <div class="card border-0 h-100 bg-transparent">
-                            <div class="service-img-wrapper mx-auto">
-                                <img src="../wwwroot/images/maintance.png" class="img-fluid" alt="Maintenance">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Maintenance</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--CARD 3 -->
-                    <div class="col">
-                        <div class="card border-0 h-100 bg-transparent">
-                            <div class="service-img-wrapper mx-auto">
-                                <img src="../wwwroot/images/install.png" class="img-fluid" alt="New Installation">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">New Installation</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--CARD 4 -->
-                    <div class="col">
-                        <div class="card border-0 h-100 bg-transparent">
-                            <div class="service-img-wrapper mx-auto">
-                                <img src="../wwwroot/images/repair.png" class="img-fluid" alt="Repairs">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Repairs</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <!-- FOOTER -->
-        <div id="site-footer"></div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/wwwroot/js/site.js"></script>     
-        
-    </body>
+  </section>
+  <main class="home-services">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Complete comfort solutions</h2>
+        <p>From preventative care to full system replacement, we help keep your property comfortable and your equipment working efficiently.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3"><article class="service-card"><img src="/wwwroot/images/maintance.png" alt="HVAC maintenance service"><div class="service-card-body"><h3>Maintenance</h3><p>Seasonal tune-ups and inspections that help prevent costly equipment problems.</p></div></article></div>
+        <div class="col-sm-6 col-lg-3"><article class="service-card"><img src="/wwwroot/images/repair.png" alt="Heating and air conditioning repair"><div class="service-card-body"><h3>Repairs</h3><p>Clear diagnostics, thermostat repair, and dependable solutions for system issues.</p></div></article></div>
+        <div class="col-sm-6 col-lg-3"><article class="service-card"><img src="/wwwroot/images/install.png" alt="New HVAC installation"><div class="service-card-body"><h3>Installation</h3><p>Professional HVAC installation plus thermostat installation and smart upgrades.</p></div></article></div>
+        <div class="col-sm-6 col-lg-3"><article class="service-card"><img src="/wwwroot/images/img2.png" alt="Residential heating and cooling service"><div class="service-card-body"><h3>Heating &amp; Cooling</h3><p>Year-round comfort solutions for residential and commercial properties.</p></div></article></div>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/wwwroot/js/site.js"></script>
+</body>
 </html>
