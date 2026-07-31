@@ -282,9 +282,11 @@ main { flex: 1; }
   :root { --nav-h: 68px; }
   .hero { padding: 56px 0; }
   .hero-text h1 { font-size: 2.65rem; }
-  .hero-logo { display: block; grid-row: 1; width: 190px; margin: 0 auto -6px; }
-  .hero-logo img { width: 100%; max-width: 190px; }
+  .hero-logo { position: relative; z-index: 2; display: block; grid-row: 1; width: 230px; margin: 0 auto 2px; }
+  .hero-logo img { width: 100%; max-width: 230px; filter: drop-shadow(0 10px 18px rgba(5,35,60,.32)) drop-shadow(0 0 12px rgba(255,255,255,.25)); }
   .hero-text { grid-row: 2; }
+  #site-header:not(.interior-page-header) .brand-mark { display: none; }
+  #site-header:not(.interior-page-header) .brand-logo { display: block; }
   .trust-items { grid-template-columns: 1fr; padding: 8px 0; }
   .trust-item { padding: 12px; border-right: 0; }
   .home-services, .page-section { padding: 54px 0; }
